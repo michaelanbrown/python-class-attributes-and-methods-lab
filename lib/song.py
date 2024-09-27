@@ -27,3 +27,4 @@ class Song:
     @classmethod
     def add_to_genre_count(cls, genre):
         if cls.genre_count.get(genre):
+            cls.genre_count[genre] += 1
