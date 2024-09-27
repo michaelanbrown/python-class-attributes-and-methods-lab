@@ -20,3 +20,4 @@ class Song:
 
     @classmethod
     def add_to_artists(cls, artist):
+        if artist not in cls.artists:
