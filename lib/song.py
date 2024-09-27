@@ -14,6 +14,7 @@ class Song:
         self.add_to_genres(genre)
         self.add_to_artists(artist)
         self.add_to_genre_count(genre)
+        self.add_to_artist_count(artist)
 
     @classmethod
     def add_song_to_count(cls):
