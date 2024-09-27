@@ -9,3 +9,4 @@ class Song:
 
     @classmethod
     def add_song_to_count(cls):
+        cls.count += 1
