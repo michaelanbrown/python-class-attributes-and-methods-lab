@@ -6,3 +6,6 @@ class Song:
         self.name = name
         self.artist = artist
         self.genre = genre
+
+    @classmethod
+    def add_song_to_count(cls):
